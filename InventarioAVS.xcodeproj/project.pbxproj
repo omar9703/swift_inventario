@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1023AE41256B676700D133F9 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1023AE40256B676700D133F9 /* SwiftyJSON */; };
+		105DA2CF256C35C800CE5540 /* InventarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DA2CE256C35C800CE5540 /* InventarioViewController.swift */; };
+		105DA2D2256C3E6E00CE5540 /* EscanerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DA2D1256C3E6E00CE5540 /* EscanerViewController.swift */; };
 		108ED0ED2566F0650034552B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108ED0EC2566F0650034552B /* AppDelegate.swift */; };
 		108ED0EF2566F0650034552B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108ED0EE2566F0650034552B /* SceneDelegate.swift */; };
 		108ED0F12566F0650034552B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108ED0F02566F0650034552B /* ViewController.swift */; };
 		108ED0F42566F0650034552B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108ED0F22566F0650034552B /* Main.storyboard */; };
 		108ED0F62566F06A0034552B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108ED0F52566F06A0034552B /* Assets.xcassets */; };
 		108ED0F92566F06A0034552B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108ED0F72566F06A0034552B /* LaunchScreen.storyboard */; };
+		108ED1032566F0A10034552B /* LoginHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108ED1022566F0A10034552B /* LoginHTTP.swift */; };
+		108ED107256705A60034552B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108ED106256705A60034552B /* MenuViewController.swift */; };
+		108ED10B256763C20034552B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108ED10A256763C20034552B /* User.swift */; };
+		137BC85F6BD56AA37A8C8260 /* Pods_InventarioAVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7160CC6F249F3D9AC4979119 /* Pods_InventarioAVS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		105DA2CE256C35C800CE5540 /* InventarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarioViewController.swift; sourceTree = "<group>"; };
+		105DA2D1256C3E6E00CE5540 /* EscanerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscanerViewController.swift; sourceTree = "<group>"; };
 		108ED0E92566F0650034552B /* InventarioAVS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventarioAVS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108ED0EC2566F0650034552B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108ED0EE2566F0650034552B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,12 @@
 		108ED0F52566F06A0034552B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108ED0F82566F06A0034552B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108ED0FA2566F06A0034552B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108ED1022566F0A10034552B /* LoginHTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHTTP.swift; sourceTree = "<group>"; };
+		108ED106256705A60034552B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		108ED10A256763C20034552B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2C3534B1A1D71A01A1E5C67C /* Pods-InventarioAVS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventarioAVS.debug.xcconfig"; path = "Target Support Files/Pods-InventarioAVS/Pods-InventarioAVS.debug.xcconfig"; sourceTree = "<group>"; };
+		7160CC6F249F3D9AC4979119 /* Pods_InventarioAVS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InventarioAVS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EADC7565E028F5B0C13AEBC /* Pods-InventarioAVS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventarioAVS.release.xcconfig"; path = "Target Support Files/Pods-InventarioAVS/Pods-InventarioAVS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1023AE41256B676700D133F9 /* SwiftyJSON in Frameworks */,
+				137BC85F6BD56AA37A8C8260 /* Pods_InventarioAVS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				108ED0EB2566F0650034552B /* InventarioAVS */,
 				108ED0EA2566F0650034552B /* Products */,
+				79152C9A17F8D079AA1CE6A9 /* Pods */,
+				8943BCA030EB04674A47BF26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +75,8 @@
 		108ED0EB2566F0650034552B /* InventarioAVS */ = {
 			isa = PBXGroup;
 			children = (
+				108ED1052567055E0034552B /* Controladores */,
+				108ED1012566F0800034552B /* Modelos */,
 				108ED0EC2566F0650034552B /* AppDelegate.swift */,
 				108ED0EE2566F0650034552B /* SceneDelegate.swift */,
 				108ED0F02566F0650034552B /* ViewController.swift */,
@@ -67,6 +88,42 @@
 			path = InventarioAVS;
 			sourceTree = "<group>";
 		};
+		108ED1012566F0800034552B /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				108ED1022566F0A10034552B /* LoginHTTP.swift */,
+				108ED10A256763C20034552B /* User.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		108ED1052567055E0034552B /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				108ED106256705A60034552B /* MenuViewController.swift */,
+				105DA2CE256C35C800CE5540 /* InventarioViewController.swift */,
+				105DA2D1256C3E6E00CE5540 /* EscanerViewController.swift */,
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
+		79152C9A17F8D079AA1CE6A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C3534B1A1D71A01A1E5C67C /* Pods-InventarioAVS.debug.xcconfig */,
+				9EADC7565E028F5B0C13AEBC /* Pods-InventarioAVS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8943BCA030EB04674A47BF26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7160CC6F249F3D9AC4979119 /* Pods_InventarioAVS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +131,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 108ED0FD2566F06A0034552B /* Build configuration list for PBXNativeTarget "InventarioAVS" */;
 			buildPhases = (
+				89F575BF44DDE44CD46525A8 /* [CP] Check Pods Manifest.lock */,
 				108ED0E52566F0650034552B /* Sources */,
 				108ED0E62566F0650034552B /* Frameworks */,
 				108ED0E72566F0650034552B /* Resources */,
+				CB550F4510990F2DA71FD1CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = InventarioAVS;
+			packageProductDependencies = (
+				1023AE40256B676700D133F9 /* SwiftyJSON */,
+			);
 			productName = InventarioAVS;
 			productReference = 108ED0E92566F0650034552B /* InventarioAVS.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +172,9 @@
 				Base,
 			);
 			mainGroup = 108ED0E02566F0650034552B;
+			packageReferences = (
+				1023AE3F256B676600D133F9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 108ED0EA2566F0650034552B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,14 +197,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89F575BF44DDE44CD46525A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InventarioAVS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB550F4510990F2DA71FD1CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InventarioAVS/Pods-InventarioAVS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InventarioAVS/Pods-InventarioAVS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InventarioAVS/Pods-InventarioAVS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		108ED0E52566F0650034552B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105DA2CF256C35C800CE5540 /* InventarioViewController.swift in Sources */,
 				108ED0F12566F0650034552B /* ViewController.swift in Sources */,
+				108ED107256705A60034552B /* MenuViewController.swift in Sources */,
+				108ED10B256763C20034552B /* User.swift in Sources */,
 				108ED0ED2566F0650034552B /* AppDelegate.swift in Sources */,
 				108ED0EF2566F0650034552B /* SceneDelegate.swift in Sources */,
+				105DA2D2256C3E6E00CE5540 /* EscanerViewController.swift in Sources */,
+				108ED1032566F0A10034552B /* LoginHTTP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +395,7 @@
 		};
 		108ED0FE2566F06A0034552B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3534B1A1D71A01A1E5C67C /* Pods-InventarioAVS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +415,7 @@
 		};
 		108ED0FF2566F06A0034552B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EADC7565E028F5B0C13AEBC /* Pods-InventarioAVS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +455,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1023AE3F256B676600D133F9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1023AE40256B676700D133F9 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1023AE3F256B676600D133F9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 108ED0E12566F0650034552B /* Project object */;
 }
