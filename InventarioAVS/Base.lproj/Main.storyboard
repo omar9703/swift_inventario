@@ -297,14 +297,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oob-6R-sVh">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oob-6R-sVh">
                                 <rect key="frame" x="20" y="155" width="374" height="163"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="MGF-v3-8kM"/>
+                                    <constraint firstAttribute="width" constant="374" id="hf6-Yu-zAd"/>
+                                </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQd-BT-KpB">
-                                <rect key="frame" x="77" y="490" width="233" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQd-BT-KpB">
+                                <rect key="frame" x="77" y="490" width="233" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -312,6 +314,16 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="e9n-7M-Nwp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="e9n-7M-Nwp" firstAttribute="trailing" secondItem="oob-6R-sVh" secondAttribute="trailing" constant="20" id="3k9-N4-Aza"/>
+                            <constraint firstItem="yQd-BT-KpB" firstAttribute="top" secondItem="oob-6R-sVh" secondAttribute="bottom" constant="172" id="7cu-el-Eam"/>
+                            <constraint firstItem="yQd-BT-KpB" firstAttribute="top" secondItem="oob-6R-sVh" secondAttribute="bottom" constant="172" id="8Nk-96-Fea"/>
+                            <constraint firstItem="e9n-7M-Nwp" firstAttribute="trailing" secondItem="yQd-BT-KpB" secondAttribute="trailing" constant="104" id="PHo-8g-IWQ"/>
+                            <constraint firstItem="e9n-7M-Nwp" firstAttribute="bottom" secondItem="yQd-BT-KpB" secondAttribute="bottom" constant="337" id="Tcv-d6-PKt"/>
+                            <constraint firstItem="oob-6R-sVh" firstAttribute="top" secondItem="e9n-7M-Nwp" secondAttribute="top" constant="67" id="V8N-Jl-XdH"/>
+                            <constraint firstItem="oob-6R-sVh" firstAttribute="leading" secondItem="e9n-7M-Nwp" secondAttribute="leading" constant="20" id="YRQ-1i-VxZ"/>
+                            <constraint firstItem="yQd-BT-KpB" firstAttribute="leading" secondItem="e9n-7M-Nwp" secondAttribute="leading" constant="77" id="fT5-0d-lZW"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dL2-PE-s2f"/>
                     <connections>
